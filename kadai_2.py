@@ -12,9 +12,9 @@ length = len(amino_list)
 
 base = []
 
-def perm(amino_list,length,base,n): #順列を作って出力する関数の定義
+def perm(amino_list,length,base,n): #順列を作って出力する関数の定義 初めはn=0
 
-	if n >= length: #n回繰り返したら
+	if n >= length: #length回繰り返したら
 		mojiretu = ''.join(base) #リストを文字列に変換、連結
 		print mojiretu
 		return 1
